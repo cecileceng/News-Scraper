@@ -1,0 +1,27 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "Homework Objectives: Utilize Mongoose and Cheerio and create a web app that lets users leave comments on the latest news articles scraped from another site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecileceng/News-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cecileceng/News-Scraper/issues"
+  },
+  "homepage": "https://github.com/cecileceng/News-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.5.10",
+    "request": "^2.74.0"
+  }
+}
